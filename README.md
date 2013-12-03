@@ -37,7 +37,7 @@ Copyright (c) 2013 Yuki Fujiwara \<sky.y.0079@gmail.com\>
 	# make install
 
 ### Xmindoc
-(stab)
+	$ gem install xmindoc
 
 ## Usage
 
