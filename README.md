@@ -24,7 +24,7 @@ Copyright (c) 2013 Yuki Fujiwara \<sky.y.0079@gmail.com\>
 
 	$ brew tap homebrew/dupes
 	$ brew install libiconv
-	$ brew link --force libiconv 
+	$ brew link --force libiconv
 
 #### Linux
 
@@ -41,10 +41,10 @@ Copyright (c) 2013 Yuki Fujiwara \<sky.y.0079@gmail.com\>
 
 ## Usage
 
-	Usage: ruby XMorgDown.rb [options] input.xmind
+	Usage: xmindoc [options] input.xmind
     -o, --output FILE                Output Filename
-    -t, --to=FORMAT                  Output formats: markdown, org, html, latex, rst,  ... 
-    -w, --write=FORMAT               Output formats: markdown, org, html, latex, rst,  ... 
+    -t, --to=FORMAT                  Output formats: markdown, org, html, latex, rst,  ...
+    -w, --write=FORMAT               Output formats: markdown, org, html, latex, rst,  ...
         --pandoc-options=OPTIONS     Pandoc options (Use double quotes like "--atx-headers")
     -h, --help                       Display this screen
 
@@ -64,7 +64,7 @@ Sample files are in `samples/` directory.
 * Original XMind file: test1.xmind (test1.png as image)
 * Sample Result (Org File): test1.org
 * Sample Result (Markdown File): test1.md
-* "--atx-headers": use `#` and `##` as `<h1>` and `<h2>` header output 
+* "--atx-headers": use `#` and `##` as `<h1>` and `<h2>` header output
 
 
 ### Example 2 (English: Lorem Ipsum)
@@ -77,4 +77,3 @@ Sample files are in `samples/` directory.
 * Original XMind file: test2.xmind (test2.png as image)
 * Result (Org File): test2.org
 * Result (Markdown File): test2.md
-

@@ -73,7 +73,7 @@ module Xmindoc
       # Option Parser of optparse
       opt = OptionParser.new
       script_name = File.basename($0)
-      opt.banner = "Usage: ruby #{script_name} [options] input.xmind"
+      opt.banner = "Usage: #{script_name} [options] input.xmind"
 
       #
       # Option Settings
